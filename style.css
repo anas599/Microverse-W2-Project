@@ -460,7 +460,7 @@ textarea:focus {
 .contact_form {
   display: flex;
   flex-direction: column;
-  width: 90%;
+  /* width: 90%; */
   margin: 24px;
 }
 
@@ -469,7 +469,6 @@ textarea:focus {
   flex-direction: row;
   list-style: none;
 
-  /* width: 50%; */
   font-size: 45px;
   justify-content: center;
   padding-right: 40px;

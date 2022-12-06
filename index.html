@@ -134,7 +134,8 @@
         <input name="first_name" type="text" required placeholder="First Name" maxlength="30" minlength="2" />
         <br>
         <label for="email"></label>
-        <input name="first_name" type="text" required placeholder="Email address" />
+        <input type="email" id="email" name="user-email" placeholder="Email address"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required />
         <br>
             <label for="message"></label><br>
             <textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required maxlength="500" minlength="2"> Enter your Messege here</textarea>

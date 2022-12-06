@@ -460,6 +460,7 @@ textarea:focus {
 .contact_form {
   display: flex;
   flex-direction: column;
+
   /* width: 90%; */
   margin: 24px;
 }
@@ -468,14 +469,14 @@ textarea:focus {
   display: flex;
   flex-direction: row;
   list-style: none;
-
+  margin-top: -70px;
   font-size: 45px;
   justify-content: center;
   padding-right: 40px;
 }
 
 .social_form li {
-  padding-inline-end: 10%;
+  padding-inline-end: 18px;
 }
 
 .eaddress {

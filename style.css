@@ -28,6 +28,7 @@ header {
   /* max-width: fit-content; */
 
   /* background-clip: inherit; */
+  font-family: inter;
 }
 
 @media only screen and (max-width: 600px) {
@@ -153,26 +154,36 @@ body {
 }
 
 .lang {
-  display: flex;
-  flex-direction: row;
-  padding-right: 40px;
+    display: flex;
+      flex-direction: row;
+      padding: 0%;
+      max-width: 350px;
+      padding-left: 8px;
 }
 
-.l1 {
+.l1,
+.l2,
+.l3,
+.l4 {
   background-color: #ebf0ee;
   list-style: none;
   box-sizing: border-box;
-  margin-right: 10px;
+
+  /* margin-right: 10px; */
   border-radius: 10%;
   color: #3a4a42;
   border: none;
   padding-block-end: 10px;
+  margin-inline-start: 10px;
   font-size: 12px;
   padding-top: 8px;
   inline-size: 35%;
+  white-space: nowrap;
+      padding-left: 5px;
+        padding-right: 5px;
 }
 
-.l2 {
+/* .l2 {
   background-color: #ebf0ee;
   list-style: none;
   box-sizing: border-box;
@@ -212,7 +223,7 @@ body {
   font-size: 12px;
   padding-top: 8px;
   inline-size: 26%;
-}
+} */
 
 .lr {
   background-color: #fff;
@@ -460,8 +471,7 @@ textarea:focus {
 .contact_form {
   display: flex;
   flex-direction: column;
-
-  /* width: 90%; */
+  width: 90%;
   margin: 24px;
 }
 
@@ -469,14 +479,14 @@ textarea:focus {
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin-top: -70px;
   font-size: 45px;
   justify-content: center;
   padding-right: 40px;
+  margin-top: -70px;
 }
 
 .social_form li {
-  padding-inline-end: 18px;
+  padding-inline-end: 10%;
 }
 
 .eaddress {
@@ -550,8 +560,22 @@ textarea:focus {
   }
 
   .aboutme {
-    max-width: 60%;
+    max-width: 90%;
+    background-image: url(./Assets/illustration\ about\ me\ desktop.png);
+      -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
   }
+
+  .aboutme p {
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 70%;
+    overflow: hidden;
+  }
+
 
   .langframe {
     display: grid;
@@ -564,12 +588,11 @@ textarea:focus {
   }
 
   .endp {
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    justify-items: center;
-    align-items: baseline;
-    margin-right: 250px;
-    width: 70%;
+      display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        padding-right: 150px;
   }
 
   textarea {
@@ -583,9 +606,7 @@ textarea:focus {
 
   .endp p {
     font-size: 30px;
-    padding-top: 50px;
-    max-width: 50%;
-    margin-left: 200px;
+    max-width: 30%;
   }
 
   input[type=text],
@@ -600,6 +621,7 @@ textarea:focus {
     flex-direction: column;
     width: 400px;
     margin: 24px;
+    padding-bottom: 20%;
   }
 
   .topnav {
@@ -617,5 +639,11 @@ textarea:focus {
 
   .snapshot {
     width: 100%;
+  }
+  .eaddress{
+    display: none;
+  }
+  .getintouch{
+    float: left;
   }
 }

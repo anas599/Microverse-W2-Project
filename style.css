@@ -154,11 +154,11 @@ body {
 }
 
 .lang {
-    display: flex;
-      flex-direction: row;
-      padding: 0%;
-      max-width: 350px;
-      padding-left: 8px;
+  display: flex;
+  flex-direction: row;
+  padding: 0%;
+  max-width: 350px;
+  padding-left: 8px;
 }
 
 .l1,
@@ -179,8 +179,8 @@ body {
   padding-top: 8px;
   inline-size: 35%;
   white-space: nowrap;
-      padding-left: 5px;
-        padding-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /* .l2 {
@@ -562,10 +562,10 @@ textarea:focus {
   .aboutme {
     max-width: 90%;
     background-image: url(./Assets/illustration\ about\ me\ desktop.png);
-      -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .aboutme p {
@@ -575,7 +575,6 @@ textarea:focus {
     width: 70%;
     overflow: hidden;
   }
-
 
   .langframe {
     display: grid;
@@ -588,11 +587,11 @@ textarea:focus {
   }
 
   .endp {
-      display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: row;
-        padding-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-right: 150px;
   }
 
   textarea {
@@ -640,10 +639,12 @@ textarea:focus {
   .snapshot {
     width: 100%;
   }
-  .eaddress{
+
+  .eaddress {
     display: none;
   }
-  .getintouch{
+
+  .getintouch {
     float: left;
   }
 }

@@ -1,4 +1,4 @@
-# Portfolio: desktop version
+# -Hello-Microverse-project
 
 <a name="readme-top"></a>
 
@@ -26,10 +26,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="Assets/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="as-logo-png-transparent.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio: desktop version README file</b></h3>
+  <h3><b>Hello Microverse README file</b></h3>
 
 </div>
 
@@ -59,10 +59,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Anas's Desktop Porfolio] <a name="about-project"></a>
+# 📖 [Anas's Mobile Porfolio] <a name="about-project"></a>
 
 
-**[Anas's Desktop Porfolio]** is a mobile and Desktop responsive website to demonstrate my knowledge in HTML and CSS
+**[Anas's Mobile Porfolio]** is a mobile responsive website to demonstrate my knowledge in HTML and CSS
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -109,7 +109,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://github.com/anas599/Microverse-W2-Project/)
+- [Live Demo Link](https://github.com/anas599/-Hello-Microverse-project.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
